@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f5f7fb;
+  --foreground: #0f172a;
+  --card: rgba(255, 255, 255, 0.82);
+  --soft: #eef3ff;
+  --muted: #475569;
+  --border: rgba(148, 163, 184, 0.22);
+  --primary: #2563eb;
+  --primary-soft: rgba(37, 99, 235, 0.22);
+  --shadow: rgba(15, 23, 42, 0.08);
+}
+
+html.dark {
+  --background: #020817;
+  --foreground: #e2e8f0;
+  --card: rgba(15, 23, 42, 0.9);
+  --soft: #0f172a;
+  --muted: #94a3b8;
+  --border: rgba(148, 163, 184, 0.18);
+  --primary: #60a5fa;
+  --primary-soft: rgba(96, 165, 250, 0.2);
+  --shadow: rgba(2, 6, 23, 0.35);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), Arial, sans-serif;
+  line-height: 1.6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+::selection {
+  background: rgba(96, 165, 250, 0.25);
+}
+
+.section-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--primary);
+  border-radius: 9999px;
+  padding: 0.45rem 0.9rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
