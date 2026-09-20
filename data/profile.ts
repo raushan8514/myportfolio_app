@@ -4,7 +4,7 @@ export const profile: Profile = {
   name: "Raushan Kumar Sahni",
   title: "Computer Science Student | Full-Stack Developer | AI Enthusiast",
   intro:
-    "I am a computer science student building practical full-stack products and exploring AI-driven experiences.",
+    "I enjoy turning ideas into practical digital products, from building full-stack web applications to exploring AI-powered solutions. I’m continuously learning, experimenting with new technologies, and strengthening my problem-solving skills through hands-on projects.",
   aboutParagraph:
     "I am a Computer Science student focused on full-stack development, problem solving, and building software that is useful, clean, and approachable.",
   // profileImage: "/profile/profile.jpg",
@@ -45,7 +45,7 @@ export const socialLinks: SocialLink[] = [
 
 export const heroStats = [
   { label: "Projects", value: "4+" },
-  { label: "Certifications", value: "Growing" },
+  { label: "Certifications", value: "6+" },
   { label: "Technologies", value: "20+" },
   { label: "Coding Platforms", value: "6" },
 ];

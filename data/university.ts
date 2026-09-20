@@ -31,7 +31,7 @@ export const universityProfile: UniversityProfile = {
     {
       id: "volunteering",
       title: "Campus Volunteering",
-      image: "/activities/cordinator.png",
+      image: "/activities/c.png",
       date: "2026",
       type: "Volunteering",
       role: "Volunteer",

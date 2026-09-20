@@ -8,21 +8,17 @@ export const projects: Project[] = [
     slug: "lifeos",
     shortDescription: "A personal operating system for productivity, routines, and daily planning.",
     description:
-      "LifeOS is a personal productivity platform designed around tasks, goals, routines, and planning workflows for day-to-day life management.",
+      "A personal productivity platform for managing tasks, goals, routines, and daily planning.",
     category: "Full Stack",
     // image: "/projects/lifeos.svg",
     image: "/projects/lifeos.png",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Prisma", "PostgreSQL"],
     features: [
-      "Tasks",
-      "Calendar",
-      "Goals",
-      "Habits",
-      "Notes",
-      "Study",
-      "Expenses",
-      "Dashboard",
-      "Authentication",
+      "Task management",
+      "Goals & habits",
+      "Calendar & planning",
+      "Expense tracking",
+      
 
     ],
     githubUrl: "https://github.com/raushan8514/lifeos",
