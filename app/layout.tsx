@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://example.com"),
+  metadataBase: new URL("https://myportfolio-app-three.vercel.app/"),
   title: "Raushan Kumar Sahni | Computer Science Engineer",
   description:
     "Portfolio of Raushan Kumar Sahni, a B.Tech Computer Science student, full-stack developer, and AI enthusiast building modern digital experiences.",
@@ -37,6 +37,10 @@ export const metadata: Metadata = {
     title: "Raushan Kumar Sahni | Computer Science Engineer",
     description:
       "Full-stack developer and AI enthusiast building modern digital experiences and practical software solutions.",
+  },
+
+   verification: {
+    google: "PQuhSJ0XeesDcms-1JnN2RA2ZawCnrJMY0Jl3LjirU0",
   },
 };
 
